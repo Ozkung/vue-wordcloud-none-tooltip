@@ -1,9 +1,9 @@
 {
-  "name": "vue-wordcloud",
+  "name": "vue-wordcloud-tooltip-fix",
   "description": "A Vue.js Word Cloud component",
-  "version": "1.1.1",
+  "version": "1.0.0",
   "license": "MIT",
-  "author": "fei.fang <karen.feifang@gmail.com>",
+  "author": "mcbattirola <mcbattirola@gmail.com>",
   "private": false,
   "main": "dist/word-cloud.js",
   "scripts": {
