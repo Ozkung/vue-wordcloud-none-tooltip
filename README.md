@@ -7,11 +7,11 @@ For reference, see te original [project's repo](https://github.com/feifang/vue-w
 
 ### Install
 ```
-npm install vue-wordcloud
+npm install vue-wordcloud-tooltip-fix
 
 ```
 
 ### Import
 ```
-import wordcloud from 'vue-wordcloud'
+import wordcloud from 'vue-wordcloud-tooltip-fix'
 ```
