@@ -210,7 +210,7 @@ export default {
               .attr('transform', 'translate(' + layout.size()[0] / 2 + ',' + layout.size()[1] / 2 + ')')
       // Define the div for the tooltip
       const tooltip = d3.select("body").append("div")
-            .attr("class", "tooltip")
+            .attr("class", "wordcloud--tooltip")
             .style("opacity", 0);
       const text = centeredChart.selectAll('text')
               .data(data)
@@ -274,7 +274,7 @@ export default {
   top: 0;
   left: 0;
 }
-div.tooltip {
+div.wordcloud--tooltip {
     position: absolute;
     width: 140px;
     height: 50px;
