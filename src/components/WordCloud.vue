@@ -276,15 +276,19 @@ export default {
 }
 div.wordcloud--tooltip {
     position: absolute;
-    width: 140px;
+    width: 150px;
     height: 50px;
-    padding: 8px;
-    font: 18px Arial;
-    line-height: 24px;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 20px;
     color: white;
     background: black;
     border: 0px;
     border-radius: 2px;
     pointer-events: none;
+}
+div.wordcloud--tooltip:empty {
+  padding: 0px !important;
+  height: 0px !important;
 }
 </style>
