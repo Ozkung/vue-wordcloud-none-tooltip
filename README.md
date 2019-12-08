@@ -1,7 +1,7 @@
 # vue-wordcloud tooltip fix
 
-This is a simple fork. Some classes used in the original vue-wordcloud are too prone to conflict,
-and where causing some troubles to me. 
+This is a simple fork. Some css classes used in the original vue-wordcloud are too prone to conflict,
+and were causing some troubles to our projects. 
 For reference, see te original [project's repo](https://github.com/feifang/vue-wordcloud) 
 
 
