@@ -274,4 +274,21 @@ export default {
   top: 0;
   left: 0;
 }
+div.wordcloud--tooltip {
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    padding: 4px;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    background: black;
+    border: 0px;
+    border-radius: 2px;
+    pointer-events: none;
+}
+div.wordcloud--tooltip:empty {
+  padding: 0px !important;
+  height: 0px !important;
+}
 </style>
